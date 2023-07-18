@@ -25,10 +25,15 @@ header{
     align-items: center;
     color: aliceblue;
 }
+.text-header, .secao-2{
+    visibility: hidden;
+}
 .texto-secao-1{
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
     text-align: center;
     font-size: 40px;
-    margin: 100px auto;
+    margin: 140px auto;
+    color: aliceblue;
     
 }
 .secao-2{
@@ -54,17 +59,21 @@ header{
 .produto-descricao{
     color: aliceblue;
 }
-.img-produto{ 
+.img-produto-1, .img-produto-2{ 
     display: block;
-    background-image: url('./pexels-robin-stickel-70497.jpg');
     background-size: cover;
     background-position: center;
     width: 250px;
     height: 250px;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 0 10px black;
-    
+    box-shadow: 0 0 10px black;    
+}
+.img-produto-1{
+    background-image: url('./pexels-robin-stickel-70497.jpg');
+}
+.img-produto-2{
+    background-image: url('./pexels-victor-cayke-17409458.jpg');
 }
 .img-produto img{ 
     background-size: cover;
@@ -72,6 +81,7 @@ header{
 
 }
 footer{
+    visibility: hidden;
     width: 100%;
     margin-top: 50px;
     height: 200px;
