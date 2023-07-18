@@ -6,12 +6,13 @@
     
 }
 body{
-    background-color: rgb(236, 128, 128);
+    
 }
 .container{
     max-width: 1200px;
     overflow: hidden;
     margin: 0 auto;
+    background-color: rgb(252, 214, 214);
 }
 header{
     background-image: url('./pexels-robin-stickel-70497.jpg');
@@ -60,6 +61,16 @@ header{
     background-size: cover;
     
 
+}
+footer{
+    margin-top: 50px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 50px;
 }
 @media screen and (max-width:400px){
     header{
