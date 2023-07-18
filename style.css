@@ -97,6 +97,15 @@ header{
     background-color: black;
     color: aliceblue;
 }
+.interagir{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+li{
+    list-style: none;
+}
 footer{
     visibility: hidden;
     width: 100%;

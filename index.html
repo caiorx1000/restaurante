@@ -96,10 +96,16 @@
                 <p class="produto-text">R$ 30,00</p>
                 <p class="produto-descricao">Hamburguer com bacon, porção <br> de babatas fritas e um refrigerante.</p>
             </div> 
-            <div class="card-produtos">
+            <div id="area" class="card-produtos">
                 <a href="#" class="img-produto-1"></a>
                 <p class="produto-text">R$ 30,00</p>
                 <p class="produto-descricao">Hamburguer com bacon, porção <br> de babatas fritas e um refrigerante.</p>
+                <div class="interagir">
+                    <input type="text" id="ingrediente"></b>
+                    <button class="btn-quest" onclick="adicionarIngrediente()">Adicione Ingrediente</button><br><br>
+                    <ul id="lista">                    
+                    </ul>
+                </div>
             </div> 
         </section>   
         <br><br>
@@ -107,6 +113,10 @@
            <h1> Escreva o que você achou do lanche: </h1><br>
            <p id="resposta"></p><br>
            <button class="btn-quest" onclick="document.getElementById('resposta').innerHTML = prompt('O Você achou do lanche?');"> Envie > </button>
+            <button class="btn-quest" onclick="fazerAcao()">Mude Algo</button><br>
+
+           
+        
         </section>    
     </main>
     <footer>
