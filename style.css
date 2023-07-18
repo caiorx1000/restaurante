@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,300&family=Rufina:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(236, 128, 128);
+}
+.container{
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+header{
+    background-image: url('./pexels-robin-stickel-70497.jpg');
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.texto-secao-1{
+    text-align: center;
+    font-size: 30px;
+    margin: 200px auto;
+}
+.secao-2{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card-produtos{
+    text-align: center;  
+}
+.produto-text{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.img-produto{ 
+    display: block;
+    background-image: url('./pexels-robin-stickel-70497.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+    
+}
+.img-produto img{ 
+    background-size: cover;
+    
+
+}
+@media screen and (max-width:400px){
+    header{
+        height: 400px;
+        border-radius: none;
+    }
+    .text-header{
+        font-size: 10px;
+    }
+}
