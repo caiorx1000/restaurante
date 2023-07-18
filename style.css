@@ -9,7 +9,7 @@ body{
     
 }
 .container{
-    max-width: 1200px;
+    max-width: 1350px;
     overflow: hidden;
     margin: 0 auto;
     background-color: rgb(252, 214, 214);
@@ -27,8 +27,9 @@ header{
 }
 .texto-secao-1{
     text-align: center;
-    font-size: 30px;
-    margin: 200px auto;
+    font-size: 40px;
+    margin: 100px auto;
+    
 }
 .secao-2{
 
@@ -36,22 +37,30 @@ header{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
 }
 .card-produtos{
     text-align: center;  
+    border: solid 5px rgb(255, 246, 246);
+    padding: 30px;
+    background-color: rgb(231, 0, 0);
 }
 .produto-text{
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: bold;
+    font-size: 30px;
+    color: aliceblue
+}
+.produto-descricao{
+    color: aliceblue;
 }
 .img-produto{ 
     display: block;
     background-image: url('./pexels-robin-stickel-70497.jpg');
     background-size: cover;
     background-position: center;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 0 10px black;
