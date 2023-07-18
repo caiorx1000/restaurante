@@ -80,6 +80,23 @@ header{
     
 
 }
+.questionario{
+    padding: 20px;
+    border: solid 1px black;
+    margin: 0 auto;
+    width: 400px;
+    background-color: rgb(83, 0, 0);
+    color: aliceblue;
+}
+.btn-quest{
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.btn-quest:hover{
+    background-color: black;
+    color: aliceblue;
+}
 footer{
     visibility: hidden;
     width: 100%;
